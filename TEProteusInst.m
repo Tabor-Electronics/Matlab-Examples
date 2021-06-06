@@ -566,6 +566,12 @@ classdef TEProteusInst < handle
                 numOfChannels = 2;
             elseif contains(model, 'P2582')
                 numOfChannels = 2;
+           elseif contains(model, 'P2584')
+                numOfChannels = 4;
+            elseif contains(model, 'P2588')
+                numOfChannels = 8;
+            elseif contains(model, 'P25812')
+                numOfChannels = 12;
             end
         end
         
